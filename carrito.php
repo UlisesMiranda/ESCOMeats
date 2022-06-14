@@ -58,7 +58,7 @@
 							'</div>'+
 							'<div class="pedido-detalle">'+
 								'<h3>'+data.datos[i].nompro+'</h3>'+
-								'<p><b>Precio:</b> S/ '+data.datos[i].prepro+'</p>'+
+								'<p><b>Precio:</b> $ '+data.datos[i].prepro+'</p>'+
 								'<p><b>Fecha:</b> '+data.datos[i].fecped+'</p>'+
 								'<p><b>Estado:</b> '+data.datos[i].estado+'</p>'+
 								'<p><b>Dirección:</b> '+data.datos[i].dirusuped+'</p>'+
