@@ -29,7 +29,7 @@
 			$response->state=true;
 			//recuerda que debes redireccionar al nombre de proyecto correcto
 			// ejm: sistema-ecommerce-master
-			unlink("../../sistema-ecommerce/assets/products/".$rutimapro);
+			unlink("../../assets/products/".$rutimapro);
 		}else{
 			$response->state=false;
 			$response->detail="No se puede eliminar el producto";

@@ -2,7 +2,7 @@
 	include("../config/conexion.php");
 	$response=new stdClass();
 
-	//$response->state=true;
+	$response->state=true;
 	$codpro=$_POST['codigo'];
 	$nompro=$_POST['nombre'];
 	$despro=$_POST['descripcion'];
@@ -19,11 +19,11 @@
 		if ($result) {			
 			//recuerda que debes redireccionar al nombre de proyecto correcto
 			// ejm: sistema-ecommerce-master
-			if(move_uploaded_file($_FILES['imagen']['tmp_name'], "../../sistema-ecommerce/assets/products/".$nombre_imagen)){
+			if(move_uploaded_file($_FILES['imagen']['tmp_name'], "../../assets/products/".$nombre_imagen)){
 				$response->state=true;
 				//recuerda que debes redireccionar al nombre de proyecto correcto
 				// ejm: sistema-ecommerce-master
-				unlink("../../sistema-ecommerce/assets/products/".$rutimapro);
+				unlink("../../assets/products/".$rutimapro);
 			}else{
 				$response->state=false;
 				$response->detail="Hubo un error al cargar la imagen";

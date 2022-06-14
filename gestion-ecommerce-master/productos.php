@@ -204,6 +204,7 @@
 			request.open('POST','api/producto_update.php',true);
 			request.onload=function(){
 				if (request.readyState==4 && request.status==200) {
+					console.log(request.responseText)
 					let response=JSON.parse(request.responseText);
 					console.log(response);
 					if (response.state) {

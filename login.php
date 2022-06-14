@@ -13,7 +13,7 @@
 			max-width: 460px;
 			width: calc(100% - 40px);
 			padding: 20px;
-			background: #fff;
+			background: #fff; 
 			border-radius: 5px;
 			margin: auto;
 		}
