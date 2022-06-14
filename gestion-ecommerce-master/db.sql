@@ -11,11 +11,11 @@ CREATE TABLE PRODUCTO(
 alter table PRODUCTO add rutimapro varchar(100) null;
 
 INSERT INTO PRODUCTO (nompro,despro,prepro,estado,rutimapro)
-VALUES ('Papel Crepe','Ideal para decoraci&oacute;n de trabajos escolares','14.99',1,'crepe.jpg')
-,('Papel Bond A4','Papel ultra blanco de 180gr','9.99',1,'bonda4.jpg')
-,('Colores Faber Castell','Caja de colores x 12 unid. + 2 de regalo','5.99',1,'colores12unid.jpg')
-,('Ecolapices Faber Castell','Caja de ecolapices x 60 unid.','11.99',1,'ecolapices60unid.jpg')
-,('Estuche lapices Faber Castell','Estuche de lapiceros de colores x 5 unid.','6.99',1,'lapiceros5unid.jpg')
-,('Tempera Artesco 250 ml','Frasco de tempera Artesco de 250 ml','3.99',1,'temperaartesco.jpg')
-,('Plastilina Norma','Caja con 12 barras plastilinas. 260 gr','5.99',1,'plastilinanorma.jpg')
-,('Cuaderno Standford','Cuaderno cuadriculado Standford 100 hojas','3.49',1,'cuadernostandford.jpg');
+VALUES ('Gomitas','Aciduladitos, gomitas con azucar y gmoitas enchiladas','5.00',1,'gomitas.jpg')
+,('Cacahuates','Cacahuates normales, cacahuates enchilados y habas','5.00',1,'cacahuates.jpg')
+,('Papas Barcel','Chips, Takis y Runners','14.99',1,'papitas.jpg')
+,('Gorditas de nata','Gorditas de nata normales o rellenas de chocolate','19.99',1,'gorditas.jpg')
+,('Pay de limon','Delicioso pay de limon','14.99',1,'pay.jpg')
+,('Kinder Delice','Delicioso pastelito de chocolate','14.99',1,'kinderd.jpg')
+,('Top-Tops','Botana de maiz sabor hot chili y salsa negra','9.99',1,'toptops.jpg')
+,('Barritas','Barritas sabor piña y fresa','10.49',1,'barritas.jpg');
