@@ -3,7 +3,7 @@
 		<div class="div-flex mb20">
 			<div class="part">
 				<h4>Quienes somos?</h4>
-				<p>Empresa dedicada al comercio electrónico de alimentos en ESCOM</p>
+				<p>Empresa dedicada al comercio electrónico en ESCOM</p>
 			</div>
 			<div class="part">
 				<h4 class="mb10">Redes sociales</h4>
